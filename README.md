@@ -1,6 +1,6 @@
 # ToyMan
 
-ToyMan is a prototypical micropolygon renderer I wrote at around 2010 or 2011. It probably supports basic micropolygon dicing, distribution effects, and environment lighting, and point-based global illumination. I probably took some code from pbrt version 1 and I probably was inspired by the [Pixie renderer](https://en.wikipedia.org/wiki/Pixie_(renderer)). Below are some images I salvaged from my old directory.
+ToyMan is a prototypical micropolygon renderer I wrote at around 2010 or 2011. It probably supports basic micropolygon dicing, distribution effects, and environment lighting, and point-based global illumination. I probably took some code from pbrt version 1 and I probably was inspired by the [Pixie renderer](https://en.wikipedia.org/wiki/Pixie_(renderer)). I probably was reading the book [Production Rendering: Design and Implementation](https://www.amazon.com/Production-Rendering-Ian-Stephenson/dp/1852338210) at the time. Below are some images I salvaged from my old directory.
 
 I am not sure if this code would be useful to anyone, but I want to keep it for fun.
 
