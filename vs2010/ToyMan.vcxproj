@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6111752-EB34-4A16-AEA0-E5E396BF1B42}</ProjectGuid>
+    <RootNamespace>ToyMan</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\sdk\FreeImage\Dist;D:\sdk\FreeImage\Wrapper\FreeImagePlus\dist;%(AdditionalDependencies)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\sdk\FreeImage\Dist;D:\sdk\FreeImage\Wrapper\FreeImagePlus\dist</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;FreeImagePlus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>false</Profile>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_SCL_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\sdk\FreeImage\Dist;D:\sdk\FreeImage\Wrapper\FreeImagePlus\dist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\sdk\FreeImage\Dist;D:\sdk\FreeImage\Wrapper\FreeImagePlus\dist;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;FreeImagePlus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AABB.cpp" />
+    <ClCompile Include="..\src\Bucket.cpp" />
+    <ClCompile Include="..\src\Display.cpp" />
+    <ClCompile Include="..\src\Display\FileDisplay.cpp" />
+    <ClCompile Include="..\src\Display\FrameBufferDisplay.cpp" />
+    <ClCompile Include="..\src\Framework\ReyesFramework.cpp" />
+    <ClCompile Include="..\src\Hider.cpp" />
+    <ClCompile Include="..\src\ImageSampler.cpp" />
+    <ClCompile Include="..\src\LightShader.cpp" />
+    <ClCompile Include="..\src\LightShader\AmbientLight.cpp" />
+    <ClCompile Include="..\src\LightShader\DistantLight.cpp" />
+    <ClCompile Include="..\src\LightShader\MedianCutEnvLight.cpp" />
+    <ClCompile Include="..\src\LightShader\PointLight.cpp" />
+    <ClCompile Include="..\src\LightShader\ShadowDistantLight.cpp" />
+    <ClCompile Include="..\src\LightShader\ShadowPointLight.cpp" />
+    <ClCompile Include="..\src\MicroPolygon.cpp" />
+    <ClCompile Include="..\src\MicroPolygonGrid.cpp" />
+    <ClCompile Include="..\src\MipMap.cpp" />
+    <ClCompile Include="..\src\Parametrics.cpp" />
+    <ClCompile Include="..\src\PixelFilter\BoxFilter.cpp" />
+    <ClCompile Include="..\src\PixelFilter\GaussianFilter.cpp" />
+    <ClCompile Include="..\src\Plane.cpp" />
+    <ClCompile Include="..\src\Primitive.cpp" />
+    <ClCompile Include="..\src\Primitive\BilinearPatch.cpp" />
+    <ClCompile Include="..\src\Primitive\Sphere.cpp" />
+    <ClCompile Include="..\src\Primitive\TriangleMesh.cpp" />
+    <ClCompile Include="..\src\RayTracer.cpp" />
+    <ClCompile Include="..\src\RIBParser\RIBLexer.cpp" />
+    <ClCompile Include="..\src\RIBParser\RIBParser.cpp" />
+    <ClCompile Include="..\src\RIBParser\RIBToken.cpp" />
+    <ClCompile Include="..\src\RNG.cpp" />
+    <ClCompile Include="..\src\ShadowMap.cpp" />
+    <ClCompile Include="..\src\SphericalHarmonics.cpp" />
+    <ClCompile Include="..\src\StratifiedSampler.cpp" />
+    <ClCompile Include="..\src\SurfaceShader.cpp" />
+    <ClCompile Include="..\src\SurfaceShader\BakeRadiosity.cpp" />
+    <ClCompile Include="..\src\SurfaceShader\Matte.cpp" />
+    <ClCompile Include="..\src\SurfaceShader\PaintedPlastic.cpp" />
+    <ClCompile Include="..\src\SurfaceShader\Plastic.cpp" />
+    <ClCompile Include="..\src\SurfaceShader\PointBasedColorBleeding.cpp" />
+    <ClCompile Include="..\src\SurfaceShader\RadiosityPoint.cpp" />
+    <ClCompile Include="..\src\Timer.cpp" />
+    <ClCompile Include="..\src\ToyMan.cpp" />
+    <ClCompile Include="..\src\Transform.cpp" />
+    <ClCompile Include="..\src\Util.cpp" />
+    <ClCompile Include="..\src\ViewingFrustum.cpp" />
+    <ClCompile Include="..\src\ZBufferHider.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\AABB.h" />
+    <ClInclude Include="..\src\Bucket.h" />
+    <ClInclude Include="..\src\Color.h" />
+    <ClInclude Include="..\src\CommonDef.h" />
+    <ClInclude Include="..\src\CropWindow.h" />
+    <ClInclude Include="..\src\Display.h" />
+    <ClInclude Include="..\src\Display\FileDisplay.h" />
+    <ClInclude Include="..\src\Display\FrameBufferDisplay.h" />
+    <ClInclude Include="..\src\DOFParameters.h" />
+    <ClInclude Include="..\src\Framework.h" />
+    <ClInclude Include="..\src\Framework\ReyesFramework.h" />
+    <ClInclude Include="..\src\Grid.h" />
+    <ClInclude Include="..\src\Hider.h" />
+    <ClInclude Include="..\src\ImageSampler.h" />
+    <ClInclude Include="..\src\LightShader.h" />
+    <ClInclude Include="..\src\LightShader\AmbientLight.h" />
+    <ClInclude Include="..\src\LightShader\DistantLight.h" />
+    <ClInclude Include="..\src\LightShader\MedianCutEnvLight.h" />
+    <ClInclude Include="..\src\LightShader\PointLight.h" />
+    <ClInclude Include="..\src\LightShader\ShadowDistantLight.h" />
+    <ClInclude Include="..\src\LightShader\ShadowPointLight.h" />
+    <ClInclude Include="..\src\MicroPolygon.h" />
+    <ClInclude Include="..\src\MicroPolygonGrid.h" />
+    <ClInclude Include="..\src\MipMap.h" />
+    <ClInclude Include="..\src\Normal.h" />
+    <ClInclude Include="..\src\ParameterList.h" />
+    <ClInclude Include="..\src\Parametrics.h" />
+    <ClInclude Include="..\src\PixelFilter.h" />
+    <ClInclude Include="..\src\PixelFilter\BoxFilter.h" />
+    <ClInclude Include="..\src\PixelFilter\GaussianFilter.h" />
+    <ClInclude Include="..\src\Plane.h" />
+    <ClInclude Include="..\src\Point.h" />
+    <ClInclude Include="..\src\Primitive.h" />
+    <ClInclude Include="..\src\Primitive\BilinearPatch.h" />
+    <ClInclude Include="..\src\Primitive\Sphere.h" />
+    <ClInclude Include="..\src\Primitive\TriangleMesh.h" />
+    <ClInclude Include="..\src\Projection.h" />
+    <ClInclude Include="..\src\Ray.h" />
+    <ClInclude Include="..\src\RayTracer.h" />
+    <ClInclude Include="..\src\RIBParser\RIBLexer.h" />
+    <ClInclude Include="..\src\RIBParser\RIBParser.h" />
+    <ClInclude Include="..\src\RIBParser\RIBToken.h" />
+    <ClInclude Include="..\src\RNG.h" />
+    <ClInclude Include="..\src\ShadowMap.h" />
+    <ClInclude Include="..\src\SphericalHarmonics.h" />
+    <ClInclude Include="..\src\StratifiedSampler.h" />
+    <ClInclude Include="..\src\SurfaceShader.h" />
+    <ClInclude Include="..\src\SurfaceShader\Matte.h" />
+    <ClInclude Include="..\src\SurfaceShader\PaintedPlastic.h" />
+    <ClInclude Include="..\src\SurfaceShader\Plastic.h" />
+    <ClInclude Include="..\src\SurfaceShader\PointBasedColorBleeding.h" />
+    <ClInclude Include="..\src\SurfaceShader\RadiosityPoint.h" />
+    <ClInclude Include="..\src\SurfaceShader\BakeRadiosity.h" />
+    <ClInclude Include="..\src\Timer.h" />
+    <ClInclude Include="..\src\Transform.h" />
+    <ClInclude Include="..\src\TwoDArray.h" />
+    <ClInclude Include="..\src\Util.h" />
+    <ClInclude Include="..\src\Vector.h" />
+    <ClInclude Include="..\src\ViewingFrustum.h" />
+    <ClInclude Include="..\src\ZBufferHider.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

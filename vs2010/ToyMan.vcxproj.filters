@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\RIBParser">
+      <UniqueIdentifier>{44c7a0be-51d8-4dcf-9727-e0267ecd76a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RIBParser">
+      <UniqueIdentifier>{3d77a298-6958-4b34-9f6e-150ab8031e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Primitive">
+      <UniqueIdentifier>{30395722-90ab-4338-83e8-9c51d8def271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LightShader">
+      <UniqueIdentifier>{03895612-c456-4cc2-9100-68dd93eadfa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SurfaceShader">
+      <UniqueIdentifier>{12b2a37a-3965-44e7-9d12-d76b561cb538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{1a1f4d92-d0f4-4c2a-be30-724e41630305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Display">
+      <UniqueIdentifier>{15a205fe-32bc-475c-99de-aa0d7726e596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{11c6aa9a-0887-465e-8013-819f5b32bf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sampler">
+      <UniqueIdentifier>{53aaca0d-57cc-4dda-80df-905e97554ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hider">
+      <UniqueIdentifier>{9783ce20-a9fa-475e-bfde-3a4f9df996be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LightShader">
+      <UniqueIdentifier>{b09c961d-dd38-44c3-9c8c-659cc1fb25d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{450ea2fc-81ce-49a0-a9b0-a730869ffbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{16c06d88-9abd-4865-9fa7-e47a8c915f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{8fe14b0d-c982-4b88-aa83-2562ad5b3f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hider">
+      <UniqueIdentifier>{51b519e3-4b3d-415f-a863-f0786d2defc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sampler">
+      <UniqueIdentifier>{7df4cecd-ceaf-4b8f-9893-8f94b55b7922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SurfaceShader">
+      <UniqueIdentifier>{2e73ed04-bdc1-4c96-85be-ea0f8d91ee77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Primitive">
+      <UniqueIdentifier>{e6b66549-19d3-4bc7-8b85-3eb1fc84d3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PixelFilter">
+      <UniqueIdentifier>{4d7fc922-01df-43db-8140-072f2ca02bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PixelFilter">
+      <UniqueIdentifier>{8ea46f79-b564-425b-85c1-34c41e36edab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\RIBParser\RIBLexer.cpp">
+      <Filter>Source Files\RIBParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RIBParser\RIBToken.cpp">
+      <Filter>Source Files\RIBParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RIBParser\RIBParser.cpp">
+      <Filter>Source Files\RIBParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AABB.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Bucket.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Display.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Hider.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ImageSampler.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightShader.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MicroPolygon.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MicroPolygonGrid.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MipMap.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Parametrics.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Plane.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitive.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RNG.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShadowMap.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StratifiedSampler.cpp">
+      <Filter>Source Files\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SurfaceShader.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Transform.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ViewingFrustum.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ZBufferHider.cpp">
+      <Filter>Source Files\Hider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Display\FileDisplay.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Display\FrameBufferDisplay.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PixelFilter\BoxFilter.cpp">
+      <Filter>Source Files\PixelFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PixelFilter\GaussianFilter.cpp">
+      <Filter>Source Files\PixelFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\ReyesFramework.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightShader\AmbientLight.cpp">
+      <Filter>Source Files\LightShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightShader\DistantLight.cpp">
+      <Filter>Source Files\LightShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightShader\ShadowDistantLight.cpp">
+      <Filter>Source Files\LightShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightShader\PointLight.cpp">
+      <Filter>Source Files\LightShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitive\BilinearPatch.cpp">
+      <Filter>Source Files\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitive\Sphere.cpp">
+      <Filter>Source Files\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RayTracer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightShader\ShadowPointLight.cpp">
+      <Filter>Source Files\LightShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SurfaceShader\BakeRadiosity.cpp">
+      <Filter>Source Files\SurfaceShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SurfaceShader\Matte.cpp">
+      <Filter>Source Files\SurfaceShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SurfaceShader\PaintedPlastic.cpp">
+      <Filter>Source Files\SurfaceShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SurfaceShader\Plastic.cpp">
+      <Filter>Source Files\SurfaceShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SurfaceShader\PointBasedColorBleeding.cpp">
+      <Filter>Source Files\SurfaceShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SphericalHarmonics.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SurfaceShader\RadiosityPoint.cpp">
+      <Filter>Source Files\SurfaceShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Timer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ToyMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitive\TriangleMesh.cpp">
+      <Filter>Source Files\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightShader\MedianCutEnvLight.cpp">
+      <Filter>Source Files\LightShader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\RIBParser\RIBLexer.h">
+      <Filter>Header Files\RIBParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RIBParser\RIBToken.h">
+      <Filter>Header Files\RIBParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RIBParser\RIBParser.h">
+      <Filter>Header Files\RIBParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AABB.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Bucket.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Color.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CommonDef.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CropWindow.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Display.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DOFParameters.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Grid.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Hider.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ImageSampler.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightShader.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MicroPolygon.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MicroPolygonGrid.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MipMap.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Normal.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ParameterList.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Parametrics.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Plane.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Point.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitive.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RNG.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShadowMap.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StratifiedSampler.h">
+      <Filter>Header Files\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SurfaceShader.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Transform.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TwoDArray.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Vector.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ViewingFrustum.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ZBufferHider.h">
+      <Filter>Header Files\Hider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Projection.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PixelFilter.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Display\FileDisplay.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Display\FrameBufferDisplay.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PixelFilter\BoxFilter.h">
+      <Filter>Header Files\PixelFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PixelFilter\GaussianFilter.h">
+      <Filter>Header Files\PixelFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\ReyesFramework.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightShader\AmbientLight.h">
+      <Filter>Header Files\LightShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightShader\DistantLight.h">
+      <Filter>Header Files\LightShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightShader\ShadowDistantLight.h">
+      <Filter>Header Files\LightShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightShader\PointLight.h">
+      <Filter>Header Files\LightShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RayTracer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitive\BilinearPatch.h">
+      <Filter>Header Files\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitive\Sphere.h">
+      <Filter>Header Files\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Ray.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightShader\ShadowPointLight.h">
+      <Filter>Header Files\LightShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SurfaceShader\BakeRadiosity.h">
+      <Filter>Header Files\SurfaceShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SurfaceShader\RadiosityPoint.h">
+      <Filter>Header Files\SurfaceShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SurfaceShader\Matte.h">
+      <Filter>Header Files\SurfaceShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SurfaceShader\PaintedPlastic.h">
+      <Filter>Header Files\SurfaceShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SurfaceShader\Plastic.h">
+      <Filter>Header Files\SurfaceShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SurfaceShader\PointBasedColorBleeding.h">
+      <Filter>Header Files\SurfaceShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SphericalHarmonics.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Timer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitive\TriangleMesh.h">
+      <Filter>Header Files\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightShader\MedianCutEnvLight.h">
+      <Filter>Header Files\LightShader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
